@@ -4,7 +4,7 @@ require 'active_support/core_ext/date'
 require 'active_support/core_ext/numeric/time'
 require 'active_support/core_ext/integer/time'
 
-class TellMeWhen
+class TellMeWhenever
   def self.parse(str)
     str = str.downcase
     target = nil
